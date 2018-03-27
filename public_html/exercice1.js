@@ -1,7 +1,8 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+var salutation ="hello world!";
 
+var taille=length(salutation);
 
+for (i=0; i<taille;i++){
+    console.log(salutation[i]);
+    console.log("l'index courant est : "+i+"le caractère courant est :"+ salutation[i]);
+}
