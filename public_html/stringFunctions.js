@@ -1,11 +1,11 @@
-function exerciceXX(){
-    
-}
+//function exerciceXX(){
+//    
+//}
 
-var div = document.getElementById("exoXX");
-var resultatDeLExo = "texte qui va bien";
-var texte = document.createTextNode(resultatDeLExo);
-div.appendChild(texte);
+//var div = document.getElementById("exoXX");
+//var resultatDeLExo = "texte qui va bien";
+//var texte = document.createTextNode(resultatDeLExo);
+//div.appendChild(texte);
 
 
 // appel fonction longueur

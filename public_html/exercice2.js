@@ -1,7 +1,24 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//function exercice2(){
+    
+var phrase = "bonjour à tous !";
 
+var occurence=length[phrase];    
+var espaces="";
+var o="";
+var positionO="";
 
+for (var i=0;i<occurence;i++){
+    if (phrase[i]===" "){
+        espaces++;
+        console.log("les espaces sont écrits :"+espaces+" fois");
+    }
+    if (phrase[i] === "o"){
+        o++;
+        positionO = i;
+    }
+    
+    
+}
+console.log("les lettres 'o' sont écrits :"+o+" fois");
+    console.log("les 'o'sont aux positions suivantes :"+ i);
+//}
